@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "An Unoffical API for RTA Dubai",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./1.png",
+    image: "./2.png",
     link: "https://github.com/NotNalin/rtadubai",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Multipurpose discord bot",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./2.png",
+    image: "./1.png",
     link: "https://shj.stooby.tech",
   },
 ];
