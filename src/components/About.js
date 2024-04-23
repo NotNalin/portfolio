@@ -11,9 +11,7 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          Hello! I'm Nalin J, a first-year Computer Science Engineering student with five years of experience in Python. Passionate about both Discord bot development and web development, I'm eager to delve deeper into the world of web development and explore its endless possibilities. Excited to merge my Python expertise with web technologies to create impactful projects. 
           </p>
           <div className="flex justify-center">
             <a
