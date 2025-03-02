@@ -2,7 +2,7 @@ export const metaData = {
   baseUrl: "https://notnal.in/",
   title: "NotNalin",
   name: "Nalin",
-  ogImage: "/profile.jpg",
+  ogImage: "/opengraph-image.png",
   description:
     "Portfolio website of Nalin",
 };
