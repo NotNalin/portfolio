@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
 import { FaC, FaFigma, FaGithub, FaInstagram, FaJava, FaJs, FaPython, FaReact, FaHtml5, FaDocker, FaMarkdown } from "react-icons/fa6";
-import { SiNextdotjs, SiTailwindcss, SiGit, SiC, SiCplusplus } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiGit} from "react-icons/si";
 
 export default function Page() {
   return (
@@ -24,8 +24,8 @@ export default function Page() {
         <p>
           I'm a 19-year-old Computer Science Engineering student with a passion
           for solving problems and building innovative projects. I enjoy working
-          with <strong>C, Python, Java, and JavaScript</strong> and am constantly exploring new
-          technologies.
+          with <strong>C, Python, Java, and JavaScript</strong> and am
+          constantly exploring new technologies.
         </p>
 
         <h2 className="mt-6 text-xl font-semibold">Tech Stack</h2>
@@ -46,6 +46,8 @@ export default function Page() {
             GitHub
           </a>
           .
+          <br />
+          Contact me at <a href="mailto:nalin@notnal.in">nalin@notnal.in</a>
         </p>
       </div>
     </section>
