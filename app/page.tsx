@@ -1,14 +1,16 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
+import { FaC, FaFigma, FaGithub, FaInstagram, FaJava, FaJs, FaPython, FaReact, FaHtml5, FaDocker, FaMarkdown } from "react-icons/fa6";
+import { SiNextdotjs, SiTailwindcss, SiGit, SiC, SiCplusplus } from "react-icons/si";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.github} target="_blank">
         <Image
-          src="/profile.png"
+          src="/profile.jpg"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5"
           unoptimized
           width={160}
           height={160}
@@ -16,46 +18,32 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio template!
+        Hi, I'm Nalin 👋
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          I'm a 19-year-old Computer Science Engineering student with a passion
+          for solving problems and building innovative projects. I enjoy working
+          with <strong>C, Python, Java, and JavaScript</strong> and am constantly exploring new
+          technologies.
         </p>
+
+        <h2 className="mt-6 text-xl font-semibold">Tech Stack</h2>
+        <ul>
+          <li className="flex items-center space-x-2">
+            <strong>Languages:</strong> <FaC /> <FaPython /> <FaJava /> <FaJs /> <FaHtml5 /> <FaMarkdown /> 
+          </li>
+          <li className="flex items-center space-x-2">
+            <strong>Frameworks & Libraries:</strong> <FaReact /> <SiNextdotjs /> <SiTailwindcss />
+          </li>
+          <li className="flex items-center space-x-2">
+            <strong>Tools & Platforms:</strong> <FaGithub /> <FaFigma /> <SiGit /> <FaDocker />
+          </li>
+        </ul>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
+          See more on my{" "}
+          <a href="https://github.com/NotNalin" target="_blank">
+            GitHub
           </a>
           .
         </p>
