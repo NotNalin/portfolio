@@ -12,6 +12,6 @@ export const socialLinks = {
   twitter: "https://x.com/NotNalin",
   github: "https://github.com/NotNalin",
   instagram: "https://www.instagram.com/notnalin",
-  linkedin: "https://www.linkedin.com/notnalin",
+  linkedin: "https://www.linkedin.com/in/notnalin",
   email: "mailto:nalin@notnal.in",
 };
