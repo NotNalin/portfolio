@@ -73,6 +73,11 @@ export default function RootLayout({
           href="/feed.json"
           title="JSON Feed"
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7598237993124783"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
         <ThemeProvider
